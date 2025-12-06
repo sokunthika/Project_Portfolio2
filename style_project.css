@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 body {
-  height: 470vh;
+  height: 500vh;
   width: 100%;
 }
 /* Navbar */
@@ -315,7 +315,7 @@ body {
 /* Contact */
 .contact {
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   background-image: url(https://img.freepik.com/premium-vector/abstract-background-with-gradient-color-abstract-gradient-background-blue-violet-purple-green_271431-249.jpg?semt=ais_hybrid&w=740&q=80);
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,4 +327,149 @@ body {
 
 .contact > h1{
     margin-top: 85px;
+}
+.contact > .info {
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 5px;
+  /* background-color: #ee6db2; */
+}
+
+.contact > .info > .personal {
+  width: 90%;
+  height: 20vh;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.contact > .info > .personal > .name {
+  width: 40%;
+  height: 100%;
+  /* background-color: thistle; */
+}
+.contact > .info > .personal > .name > input {
+  width: 90%;
+  height: 40%;
+  margin-top: 15px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 12px;
+}
+.contact > .info > .personal > .name > input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(67, 62, 62);
+}
+
+.contact > .info > .personal > .email {
+  width: 40%;
+  height: 100%;
+  /* background-color: thistle; */
+}
+.contact > .info > .personal > .email > input {
+  width: 90%;
+  height: 40%;
+  margin-top: 15px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 12px;
+}
+.contact > .info > .personal > .email > input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(67, 62, 62);
+}
+.contact > .info > .subject{
+  width: 90%;
+  height: 20vh;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 55px;
+  /* align-items: center; */
+}
+.contact > .info > .subject > .sub {
+  width: 100%;
+  height: 100%;
+  /* background-color: lightgreen; */
+  display: flex;
+  flex-direction: column;
+}
+.contact > .info > .subject > .sub > input {
+  width: 90%;
+  height: 40%;
+  margin-top: 15px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 12px;
+}
+.contact > .info > .subject > .sub > input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(67, 62, 62);
+}
+
+
+.contact > .info > .message {
+  width: 90%;
+  height: 30vh;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 55px;
+}
+.contact > .info > .message > .inbox {
+  width: 100%;
+  height: 100%;
+  /* background-color: lightgreen; */
+  display: flex;
+  flex-direction: column;
+}
+.contact > .info > .message > .inbox > input {
+  width: 90%;
+  height: 70%;
+  margin-top: 15px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 12px;
+}
+.contact > .info > .message > .inbox > input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(67, 62, 62);
+}
+.contact > .info > .send{
+  width: 90%;
+  height: 10vh;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact > .info > .send > .sendMessage {
+  width: 80%;
+  height: 45px;
+  border: 1px solid #86084b;
+  border-radius: 20px;
+  background-color: rgba(200, 200, 200, 0.25);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ca227c;
+  font-weight: bold;
+
+}
+.contact > .info > .send > .sendMessage:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 11px 16px 0px rgba(215,27,147,0.75);
+-webkit-box-shadow: 0px 11px 16px 0px rgba(215,27,147,0.75);
+-moz-box-shadow: 0px 11px 16px 0px rgba(215,27,147,0.75);
+
 }
